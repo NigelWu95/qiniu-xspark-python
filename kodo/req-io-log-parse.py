@@ -1,8 +1,8 @@
-% pyspark
+# coding=utf-8
 
 from pyspark.sql.types import StructType, StructField, StringType, FloatType, LongType
 from pyspark.sql import Row
-import time, datetime
+import time
 
 # 解析后的 IO 日志包含的字段和对应数据类型
 schema_io = StructType([

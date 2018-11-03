@@ -1,6 +1,10 @@
-% pyspark
+# coding=utf-8
 
 # 时间日期和请求次数的 Scheme
+from types import FloatType, LongType
+
+from pyspark.sql.types import StructField, StringType, StructType
+
 scheme_datetimecount = StructType([
     StructField('datetime', StringType()),
     StructField('count', LongType())])

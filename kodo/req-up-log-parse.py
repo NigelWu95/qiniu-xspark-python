@@ -1,9 +1,7 @@
-% pyspark
+# coding=utf-8
 
 from pyspark.sql.types import StructType, StructField, StringType, LongType
 from pyspark.sql import Row
-import json
-import re
 
 # 解析后的日志字段
 scheme = StructType([
