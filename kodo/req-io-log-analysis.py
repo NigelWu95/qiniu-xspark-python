@@ -1,6 +1,5 @@
 # coding=utf-8
 
-
 from pyspark.sql.types import StructField, StringType, StructType, LongType, FloatType
 
 # 时间日期和请求次数的 Scheme
